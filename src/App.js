@@ -1,7 +1,12 @@
+import React from 'react';
+import { Header, Footer } from './Layout';
 
 function App() {
   return (
-    <h1>Test</h1>
+    <div>
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
