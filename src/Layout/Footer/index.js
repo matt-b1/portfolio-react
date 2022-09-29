@@ -1,9 +1,11 @@
 import React from 'react';
+import './style.css';
 
 export const Footer = () => {
     return (
         <div className='footer'>
-            <h1>Hello this is the footer.</h1>
+            
+            <h3>Hello this is the footer.</h3>
         </div>   
     )
 }
