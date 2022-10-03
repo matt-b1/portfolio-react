@@ -1,9 +1,15 @@
-.homeContent {
+.homeContent{
     margin: 50px;
+}
+
+.homeContent p{
+    font-family: Consolas;
+    font-size: 20px;
 }
 
 hr{
     border: 2px dashed #ccc;
 }
+
 
 

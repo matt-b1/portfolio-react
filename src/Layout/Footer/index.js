@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
 import Typical from 'react-typical';
 
 export const Footer = () => {
-    const [ typeCommand, setTypeCommand ] = useState(false);
 
     useEffect (() => {
         setTimeout(() => {
-            setTypeCommand(true);
-        }, 2000)
+            document.getElementsByClassName('command')[0].textContent = '';
+        }, 3200)
     }, [])
 
     return (
         <div className='footer'>
-            <Typical id='command' className='command'
-            steps={['']}></Typical>
-            {typeCommand}
+            <Typical className='command'
+            steps={['', 1000, 'ls']}
+            wrapper='p'></Typical>
         </div>   
     )
 }
 
-export default Footer;
+
