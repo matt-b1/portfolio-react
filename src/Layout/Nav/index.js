@@ -12,9 +12,6 @@ export const Nav = () => {
         }, 3300)
     }, [])
 
-    const newCommand = () => {}
-    
-
     return (
         <div className='navbar'>
             { renderNav &&
