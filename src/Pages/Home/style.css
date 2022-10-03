@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.title {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(235, 235, 235, 0.959);
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+}
+
+body {
+    margin: 20px;
+}
+
+.animatedHeading {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.navbar {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    color: rgb(0, 161, 0);
+    font-family: 'VT323', monospace;
+}

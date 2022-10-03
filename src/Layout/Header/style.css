@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
-
-.title {
-    color: rgba(235, 235, 235, 0.959);
-    font-family: 'VT323', monospace;
-    font-size: 50px;
+.fp {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
 }
 
 .titleBar {
     display: flex;
+    align-items: center;
 }
 
 .titleBarText {
+    font-size: 16px;
     color: white;
 }
