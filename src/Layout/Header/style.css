@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 .fp {
     margin-left: 10px;
     margin-right: 10px;
@@ -12,4 +14,29 @@
 .titleBarText {
     font-size: 16px;
     color: white;
+}
+
+.heading {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(235, 235, 235, 0.959);
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    text-shadow: 0 0 2px #fff;
+}
+
+p {
+    color: white;
+}
+
+.animatedHeading {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+ #animatedHeading .styles_typicalWrapper__1_Uvh::after {
+    display: none;
+    content: none;
 }

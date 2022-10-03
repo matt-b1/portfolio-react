@@ -2,9 +2,20 @@
 
 .navbar {
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 70%;
     justify-content: space-between;
-    color: rgb(0, 161, 0);
     font-family: 'VT323', monospace;
+}
+
+.navbar a {
+    color: rgb(0, 161, 0);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: rgb(0, 241, 0);
 }

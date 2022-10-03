@@ -1,12 +1,18 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Header, Footer, Nav } from './Layout';
 import { Home } from './Pages';
 
 function App() {
   return (
-    <div>
+    <div className='pageContent'>
       <Header />
-      <Home />
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          
+        </Routes>
+      </main>
       <Nav />
       <Footer />
     </div>

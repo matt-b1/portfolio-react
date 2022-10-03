@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
+import Typical from 'react-typical';
 
 export const Footer = () => {
+    const [ typeCommand, setTypeCommand ] = useState(false);
+
+    useEffect (() => {
+        setTimeout(() => {
+            setTypeCommand(true);
+        }, 2000)
+    }, [])
+
     return (
         <div className='footer'>
-            
-            <h3>Hello this is the footer.</h3>
+            <Typical id='command' className='command'
+            steps={['']}></Typical>
+            {typeCommand}
         </div>   
     )
 }
