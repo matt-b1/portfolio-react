@@ -1,7 +1,7 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Header, Footer, Nav } from './Layout';
-import { Home } from './Pages';
+import { Home, About, Contact, Projects } from './Pages';
 
 function App() {
 
@@ -14,6 +14,8 @@ function App() {
       <Header />
       <main>
         <Routes>
+          <Route exact path='/' element={<Navigate replace to='/landing' />}></Route>
+          <Route exact path='/landing' element={<p>Welcome to the portfolio page for Matthew Blackman.</p>}></Route>
           <Route exact path='/home' element={<Home />}></Route>
           <Route exact path='/about' element={<About />}></Route>
           <Route exact path='/projects' element={<Projects />}></Route>
