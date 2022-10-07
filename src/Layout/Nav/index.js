@@ -9,7 +9,7 @@ export const Nav = () => {
     useEffect(() => {
         setTimeout(() => {
             setRenderNav(true);
-        }, 3300)
+        }, 3450)
     }, [])
 
     return (
