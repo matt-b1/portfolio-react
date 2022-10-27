@@ -2,12 +2,12 @@ import React from 'react';
 import './style.css';
 import { Delay } from '../../Components/Delay';
 
-export const Home = () => {
+export const Landing = () => {
 
     return (
         <div className='homeContent'>
-            <Delay waitBeforeShow = { 1000 }>
-                <h2>HOME</h2>
+            <Delay waitBeforeShow = { 4000 }>   
+                <h2>WELCOME TO MY PORTFOLIO.</h2>
             </Delay>
         </div>
     )

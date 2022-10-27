@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Header, Footer, Nav } from './Layout';
-import { Home, About, Contact, Projects } from './Pages';
+import { Landing, Home, About, Contact, Projects } from './Pages';
 
 function App() {
 
@@ -15,12 +15,12 @@ function App() {
       <main>
         <Routes>
           <Route exact path='/' element={<Navigate replace to='/landing' />}></Route>
-          <Route exact path='/landing' element={<p>Welcome to the portfolio page for Matthew Blackman.</p>}></Route>
+          <Route exact path='/landing' element={<Landing />}></Route>
           <Route exact path='/home' element={<Home />}></Route>
           <Route exact path='/about' element={<About />}></Route>
           <Route exact path='/projects' element={<Projects />}></Route>
           <Route exact path='/contact' element={<Contact />}></Route>
-          <Route path='/*' element={<p> This page does not exist.</p>}> </Route>
+          <Route path='/*' element={<p>InvalidURL: This page does not exist.</p>}> </Route>
         </Routes>
       </main>
       <Nav />

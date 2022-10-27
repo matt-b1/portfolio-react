@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 export const Contact = () => {
 
     return (
         <div className='contactContent'>
-            <p>Contact me</p>
+            <h2>CONTACT ME</h2>
         </div>
     )
 }

@@ -1,16 +1,9 @@
-.homeContent{
+.aboutContent{
     margin: 50px;
 }
 
-.homeContent h2{
+.aboutContent h2{
     font-family: Consolas;
     font-size: 24px;
     color: white;
 }
-
-hr{
-    border: 2px dashed #ccc;
-}
-
-
-

@@ -14,7 +14,8 @@ export const Footer = () => {
         <div className='footer'>
             <Typical className='command'
             steps={['', 2000, 'ls']}
-            wrapper='p'></Typical>
+            wrapper='p'>    
+            </Typical>
         </div>   
     )
 }

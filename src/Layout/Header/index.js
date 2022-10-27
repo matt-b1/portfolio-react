@@ -13,7 +13,7 @@ export const Header = () => {
             </div>
             <h1 id='animatedHeading' className='heading'>
                 <Typical className='animatedHeading'
-                steps={['matthew blackman. ^_^', 10]}
+                steps={['matthew blackman.', 10]}
                 />
             </h1>
         </div>   
