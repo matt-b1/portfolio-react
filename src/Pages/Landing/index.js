@@ -5,7 +5,7 @@ import { Delay } from '../../Components/Delay';
 export const Landing = () => {
 
     return (
-        <div className='homeContent'>
+        <div className='landingContent'>
             <Delay waitBeforeShow = { 4000 }>   
                 <h2>WELCOME TO MY PORTFOLIO.</h2>
             </Delay>

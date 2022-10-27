@@ -6,8 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   margin: 0;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
   border: 2px solid rgb(48, 48, 48);
 }
 
@@ -19,7 +19,9 @@ body {
 
 body>*{
   padding: 0.5em;
-  margin: 2px;
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 code {

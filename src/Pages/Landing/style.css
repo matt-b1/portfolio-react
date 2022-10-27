@@ -1,0 +1,9 @@
+.landingContent {
+    margin-left: 25px;
+}
+
+.landingContent h2 {
+    font-family: Consolas;
+    font-size: 24px;
+    color: white;
+}
